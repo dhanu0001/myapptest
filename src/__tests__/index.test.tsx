@@ -6,7 +6,7 @@ import Index from '../pages/index';
 afterEach(cleanup);
 
 describe('Index', () => {
-  it('Says hello', () => {
+  it('Says Hello Saks-Digital', () => {
     const { queryByText } = render(<Index />);
     expect(queryByText('Hello Saks-Digital!')).toBeTruthy();
   });
