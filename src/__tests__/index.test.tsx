@@ -8,6 +8,6 @@ afterEach(cleanup);
 describe('Index', () => {
   it('Says hello', () => {
     const { queryByText } = render(<Index />);
-    expect(queryByText('Hello!')).toBeTruthy();
+    expect(queryByText('Hello Saks-Digital!')).toBeTruthy();
   });
 });
