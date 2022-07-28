@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "myapptest"
+  description: "myapp@test"
+  annotations:
+    github.com/project-slug: dhanu0001/myapptest
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "dhanu0001"
